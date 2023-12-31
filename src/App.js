@@ -14,12 +14,12 @@ function App() {
     <div>
         <nav>
             <ul>
-                <li>
-                  <a href="/">
+                <li style={{minHeight:'7vh'}}>
+                  {/* <a href="/">
                     <i class="bi bi-house-door" 
                     style={{fontSize:'29px'}}
                     />
-                  </a>
+                  </a> */}
                 </li>
             </ul>
         </nav>
@@ -28,7 +28,7 @@ function App() {
     </div>
 
   
-    // 不知道為什麼上傳到gitHub 畫面出不來
+    // 不知道為什麼上傳到gitHub 畫面出不來, 所以先暫時把BrowserRouter換掉
     // <BrowserRouter>
     //   <Routes>
     //     <Route path="/" element={<Layout/>}>
