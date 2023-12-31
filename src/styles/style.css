@@ -46,6 +46,7 @@ nav ul li a {
   font-size: 1.25rem;
 }
 
+
 .search {
   display: flex;
   justify-content: center;
@@ -58,6 +59,14 @@ nav ul li a {
   padding: 0.25rem;
   border: 3px solid rgb(186, 252, 181);
 }
+/* 手機版 */
+@media (max-width:600px) {
+  .search input{
+    width: 75%;
+  }
+}
+
+
 .search button {
   background-color: rgb(186, 252, 181);
 }

@@ -14,7 +14,7 @@ function App() {
     <div>
         <nav>
             <ul>
-                <li style={{minHeight:'7vh'}}>
+                <li style={{minHeight:'5vh'}}>
                   Search Pelexs <i class="bi bi-search"/>
                   {/* <a href="/">
                     <i class="bi bi-house-door" 
