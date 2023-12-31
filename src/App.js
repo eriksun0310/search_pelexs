@@ -10,15 +10,30 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route index element={<Homepage/>} />
-          <Route path="about" element={<About/>}/>
-          {/* <Route path="*" element={<Page404/>}/> */}
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                  
+                </li>
+               
+            </ul>
+            
+        </nav>
+        <Homepage></Homepage>
+        {/* <Outlet/>
+        <Footer /> */}
+    </div>
+
+  
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Layout/>}>
+    //       <Route index element={<Homepage/>} />
+    //       <Route path="about" element={<About/>}/>
+    //       <Route path="*" element={<Page404/>}/>
+    //     </Route>
+    //   </Routes>    // </BrowserRouter>
   );
 }
 
