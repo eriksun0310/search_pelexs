@@ -10,30 +10,30 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (
-    <div>
-        <nav>
-            <ul>
-                <li>
-                  
-                </li>
-               
-            </ul>
-            
-        </nav>
-        <Homepage></Homepage>
-        {/* <Outlet/>
-        <Footer /> */}
-    </div>
+    // <div>
+    //     <nav>
+    //         <ul>
+    //             <li>
+    //               <a href="/">
+    //                 <i class="bi bi-house-door" style={{fontSize:'29px'}}/>
+    //               </a>
+    //             </li>
+    //         </ul>
+    //     </nav>
+    //     <Homepage></Homepage>
+    //     {/* <Outlet/>
+    //     <Footer /> */}
+    // </div>
 
   
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Layout/>}>
-    //       <Route index element={<Homepage/>} />
-    //       <Route path="about" element={<About/>}/>
-    //       <Route path="*" element={<Page404/>}/>
-    //     </Route>
-    //   </Routes>    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<Homepage/>} />
+          <Route path="about" element={<About/>}/>
+        </Route>
+      </Routes>   
+    </BrowserRouter>
   );
 }
 
