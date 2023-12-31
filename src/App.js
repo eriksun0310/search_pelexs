@@ -15,6 +15,7 @@ function App() {
         <nav>
             <ul>
                 <li style={{minHeight:'7vh'}}>
+                  Search Pelexs <i class="bi bi-search"/>
                   {/* <a href="/">
                     <i class="bi bi-house-door" 
                     style={{fontSize:'29px'}}

@@ -7,7 +7,7 @@ const Search = ({search, setInput}) => {
     return (
         <div className='search'>
             <input  className='input' onChange={inputHandler} type="text" />
-            <button onClick={search}>Search</button>
+            <button onClick={search}><i class="bi bi-search" /></button>
         </div>
     )
 }
