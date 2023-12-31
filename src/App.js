@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage/>} />
           <Route path="about" element={<About/>}/>
-          <Route path="*" element={<Page404/>}/>
+          {/* <Route path="*" element={<Page404/>}/> */}
         </Route>
       </Routes>
     </BrowserRouter>
