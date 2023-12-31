@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/search_pelexs/static/css/main.04af10dc.css",
-    "main.js": "/search_pelexs/static/js/main.ad1dd770.js",
+    "main.css": "/search_pelexs/static/css/main.e141d19f.css",
+    "main.js": "/search_pelexs/static/js/main.54979790.js",
     "static/media/bootstrap-icons.woff?": "/search_pelexs/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/bootstrap-icons.woff2?": "/search_pelexs/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "index.html": "/search_pelexs/index.html",
-    "main.04af10dc.css.map": "/search_pelexs/static/css/main.04af10dc.css.map",
-    "main.ad1dd770.js.map": "/search_pelexs/static/js/main.ad1dd770.js.map"
+    "main.e141d19f.css.map": "/search_pelexs/static/css/main.e141d19f.css.map",
+    "main.54979790.js.map": "/search_pelexs/static/js/main.54979790.js.map"
   },
   "entrypoints": [
-    "static/css/main.04af10dc.css",
-    "static/js/main.ad1dd770.js"
+    "static/css/main.e141d19f.css",
+    "static/js/main.54979790.js"
   ]
 }
