@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='footer'>Erika 2023</div>
+    <div className='footer'>
+      <i class="bi bi-c-circle" />&nbsp;2023 Erika Sun 
+    </div>
   )
 }
 
