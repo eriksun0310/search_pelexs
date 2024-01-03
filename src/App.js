@@ -1,3 +1,4 @@
+
 import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from "./Layout";
@@ -7,7 +8,7 @@ import Page404 from "./pages/Page404";
 import Footer from "./components/Footer";
 import "./styles/style.css"
 import "bootstrap-icons/font/bootstrap-icons.css";
-
+// require('dotenv').config()
 
 function App() {
   return (
